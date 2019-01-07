@@ -1,10 +1,32 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 int main()
 {
-    printf("gittttttt");
+    int i,j ;
+    int num,times ;
 
-    printf("Hello world!\n");
+    srand(time(NULL));
+
+    for(j=0;j<100;j++)
+    {
+        num=rand()%10+1;
+        if(num==1)
+        {
+            times++;
+        }
+    }
+
+    printf("%d\n",times);
+
+    for(i=0;i<10;i++)
+    {
+        printf("%d",i);
+    }
+
+    printf("\ngittttttt");
+
+    printf("\nHello world!\n");
     return 0;
 }
