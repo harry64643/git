@@ -3,8 +3,15 @@
 
 int main()
 {
-    printf("gittttttt");
+    int i ;
 
-    printf("Hello world!\n");
+    for(i=0;i<10;i++)
+    {
+        printf("%d",i);
+    }
+
+    printf("\ngittttttt");
+
+    printf("\nHello world!\n");
     return 0;
 }
