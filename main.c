@@ -4,29 +4,18 @@
 
 int main()
 {
-    int i,j ;
-    int num,times ;
+int  i,gradeA[10]={0},gradeB[10]={0},gradeC[10]={0};
 
-    srand(time(NULL));
+    srand(time(0));
 
-    for(j=0;j<100;j++)
-    {
-        num=rand()%10+1;
-        if(num==1)
-        {
-            times++;
-        }
-    }
+    printf("A:");
+    printf_array(gradeA);
+    printf("\nB:");
+    printf_array(gradeB);
+    printf("\nC:");
+    printf_array(gradeC);
 
-    printf("%d\n",times);
+    printf("\n");
 
-    for(i=0;i<10;i++)
-    {
-        printf("%d",i);
-    }
-
-    printf("\n today in mondy ");
-
-    printf("\nHello world!\n");
     return 0;
 }
