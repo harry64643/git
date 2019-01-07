@@ -25,7 +25,7 @@ int main()
         printf("%d",i);
     }
 
-    printf("\n today in mondy ");
+    printf("\n today is mondy ");
 
     printf("\nHello world!\n");
     return 0;
