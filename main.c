@@ -3,7 +3,7 @@
 
 int main()
 {
-    printf("gittttttt");
+    printf("there is a lesson for git");
 
     printf("Hello world!\n");
     return 0;
